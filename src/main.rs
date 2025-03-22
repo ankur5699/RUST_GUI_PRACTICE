@@ -3,7 +3,7 @@ use sdl2::pixels::Color;
 use sdl2::rect::Rect;
 
 mod view;
-use view::board_view;
+use view::board_view::{self};
 
 fn main() -> Result<(), String> {
     let screen_width = 800;

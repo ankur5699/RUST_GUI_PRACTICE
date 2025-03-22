@@ -12,5 +12,11 @@ impl Renderer {
         canvas
             .fill_rect(self.screen_area)
             .expect("Something Catastrphic happened");
+        let point1 = sdl2::rect::Point::new(32, 32);
+        let point2 = sdl2::rect::Point::new(64, 64);
+
+        canvas
+            .draw_line(point1, point2)
+            .expect("You have done Something Wrong !!")
     }
 }
