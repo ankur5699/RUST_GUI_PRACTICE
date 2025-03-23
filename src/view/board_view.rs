@@ -13,9 +13,9 @@ impl Renderer {
             .fill_rect(self.screen_area)
             .expect("Something Catastrphic happened");
 
-        canvas.set_draw_color(Color::RGB(0, 0, 0));
+        canvas.set_draw_color(Color::RGB(0, 120, 0));
         let point1 = sdl2::rect::Point::new(32, 32);
-        let point2 = sdl2::rect::Point::new(512, 512);
+        let point2 = sdl2::rect::Point::new(32, 512);
 
         canvas
             .draw_line(point1, point2)

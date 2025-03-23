@@ -20,7 +20,7 @@ fn main() -> Result<(), String> {
 
     let board_view: board_view::Renderer = board_view::Renderer {
         screen_area: Rect::new(0, 0, screen_width, screen_height),
-        clear_color: Color::RGB(65, 65, 89),
+        clear_color: Color::RGB(0, 0, 0),
     };
 
     let mut running = true;
