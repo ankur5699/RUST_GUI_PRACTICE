@@ -9,7 +9,3 @@ Usually We Want **main loop** of the program to be somewhat clean.
 Anyways.......Adios 
 
 \: )
-
-```python
-print("Hello World")
-``` 
