@@ -1,5 +1,4 @@
 use std::f64::consts::PI;
-use std::io;
 
 const NUM_SAMPLES: usize = 4096;
 
@@ -36,4 +35,21 @@ fn convert2hex_16bit(buffer: [f64; NUM_SAMPLES]) -> [i16; NUM_SAMPLES] {
         quantized_buffer[i] = quantized3;
     }
     return quantized_buffer;
+}
+
+#[cfg(test)]
+mod unit_tests {
+    #[test]
+    fn test_convert2hex_1() {
+        todo!();
+        assert!(0, 0);
+    }
+    fn test_convert2hex_2() {
+        todo!();
+        assert!(0, 0);
+    }
+    fn test_convert2hex_3() {
+        todo!();
+        assert!(0, 0);
+    }
 }
